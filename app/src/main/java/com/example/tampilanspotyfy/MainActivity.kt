@@ -46,6 +46,8 @@ class MainActivity : ComponentActivity() {
                         header()
 
                         header2()
+
+                        Contoh()
                     }
 
                         Footer(modifier = Modifier.align(Alignment.BottomCenter))
@@ -269,5 +271,13 @@ fun Footer(modifier: Modifier = Modifier) {
         }
     }
 }
+
+@Composable
+fun Contoh (){
+    Text(text = "Daniel")
+    Text(text = "2357051015")
+}
+
+
 
 
